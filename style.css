@@ -102,7 +102,7 @@ header h1 {
     opacity: 1;
 }
 
-.my-projects img {
+.gallery img {
     width: 48vw;
     height: 48vh;
 }
@@ -122,4 +122,11 @@ header h1 {
 
 .gallery-wrapper::-webkit-scrollbar {
     display: none;
+}
+
+h2 {
+    justify-content: center;
+    font-size: 4em;
+    font-family: sans-serif;
+    margin-left: 0.3em;
 }

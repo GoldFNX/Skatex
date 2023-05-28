@@ -27,5 +27,6 @@ control.forEach(control => {
         })
 
         item[currentItem].classList.add('current-item');
+        item[currentItem+1].classList.add('current-item');
     })
 })
