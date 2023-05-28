@@ -7,8 +7,12 @@ body {
     font-size: 10px;
 }
 
-/* .inicial {
+.inicial {
     display:none
+}
+
+/* .shape-categoria {
+    display: none;
 } */
 
 header {
@@ -135,12 +139,13 @@ main {
 
 .categorias { 
     display: flex;
-    width: 98vw;
+    flex-wrap: wrap;
+    width: 98.84vw;
     height: fit-content;
     position: absolute;
-    bottom: -130%;
-    justify-content: space-around;
+    bottom: -185%;
     padding-bottom: 3em;
+    gap: 3em;
 }
 
 
@@ -152,15 +157,36 @@ main h2 {
     font-family: sans-serif;
 }
 
-.imgcategory {
-    padding: 1em;
-    border: 1px solid black;
+.box-cima {
+    display: flex;
+    height: fit-content;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-around;
 }
 
-.imgcategory h5 {
+.box-baixo {
     display: flex;
-    justify-content: center;
-    font-size: 3em;
-    font-weight: 500;
-    margin-bottom: 1em;
+    margin-top: 3em;
+    height: fit-content;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-around;
 }
+
+.cada {  
+    display: flex; 
+    flex-direction: column; 
+    gap: 1.5em;
+    text-align: center;
+}
+
+.cada h5 {
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 2.5em;
+    line-height: 2.3em;
+}
+
+
